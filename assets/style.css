@@ -1,4 +1,6 @@
 body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
   background-color: #fff;
   color: #000;
 }
@@ -17,7 +19,22 @@ section {
   border-bottom: 1px solid #eee;
 }
 
-/* === Key Features === */
+.hero-section {
+  width: 100%;
+  text-align: center;
+}
+
+.hero-section .hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.hero-section .hero-text {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
 .feature-card {
   background: #f8f9fa;
   border-radius: 20px;
